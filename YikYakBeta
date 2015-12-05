@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Yik Yak</title>
+    <meta name="description" content="">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+    <!-- colors the chrome top bar -->
+    <meta name="theme-color" content="#30dbbd">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    
+      <link rel="stylesheet" href="/css/app.min.ce712484.css">
+    
+
+    
+      <!-- Google Analytics -->
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-00000000-0', {
+          sampleRate: 100
+        });
+        ga('send', 'pageview');
+
+      </script>
+      <!-- End Google Analytics -->
+
+      <script type="text/javascript">
+        (function(t,e){var n=t.amplitude||{};var r=e.createElement("script");r.type="text/javascript";
+        r.async=true;r.src="https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-2.6.1-min.gz.js";
+        r.onload=function(){t.amplitude.runQueuedFunctions()};var s=e.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(r,s);var i=function(){this._q=[];return this};function o(t){
+        i.prototype[t]=function(){this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
+        return this}}var a=["add","set","setOnce","unset"];for(var u=0;u<a.length;u++){o(a[u]);
+        }n.Identify=i;n._q=[];function c(t){n[t]=function(){n._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
+        }}var l=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify"];
+        for(var p=0;p<l.length;p++){c(l[p])}t.amplitude=n})(window,document);
+
+        amplitude.init('32 bit string, lower case letters and numbers', null, {
+          batchEvents: true,
+          eventUploadPeriodMillis: 15000,
+          eventUploadThreshold: 15
+        });
+      </script>
+    
+
+    <!-- Start of yikyak Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","yikyak.zendesk.com");/*]]>*/</script>
+    <!-- End of yikyak Zendesk Widget script -->
+  </head>
+  <body>
+
+  <div id="app"></div>
+
+    
+    <script id="localdata">
+      var
+        yy = window.yy || {};
+
+      yy = {"myHerd":{"enabled":true,"lat":"00.00000","long":"00.00000","name":"Home","eligible":true},"yakarma":100,"verificationStatus":{"isVerified":true,"forceVerification":false},"userID":"You should have your own","amplitudeID":"32 bit hex string","threatChecks":[{"message":"Pump the brakes, this yak may contain threatening language. Now it's probably nothing and you're probably an awesome person but just know that Yik Yak and law enforcement take threats seriously. So you tell us, is this yak cool to post?","allowContinue":true,"expressions":["\\bSome of you guys are alright\\b","\\U0001F52A","\\U0001F4A3","\\U0001F52B","\\bBullet\\b","\\bBullets\\b","\\bKill\\b","\\bKilling\\b","\\bkill\\b","\\bkills\\b","\\bblow up\\b","\\bbomb\\b","\\bbombed\\b","\\bbomber\\b","\\bbombing\\b","\\bbombs\\b","\\bcolumbine\\b","\\bexplosion\\b","\\bexplosive\\b","\\bexplosives\\b","\\bgun\\b","\\bgunman\\b","\\bguns\\b","\\bhandgun\\b","\\bhandguns\\b","\\bkiller\\b","\\bkilling\\b","\\bknife\\b","\\bmacheted\\b","\\brape\\b","\\braped\\b","\\bsandy hook\\b","\\bshoot\\b","\\bshooter\\b","\\bshooting\\b","\\bshooting\\b","\\blynching\\b","\\blynch\\b"]},{"message":"Before you push send, we just want to make sure this yak doesn't contain offensive content. Now it's probably nothing and you're probably an awesome person but know that Yik Yak is a place to share positivity with other members of your community. So you tell us, is this yak cool to post?","allowContinue":true,"expressions":["(jews|mexicans|hispanics|blacks|whites|asians|caucasians|orientals|gays|lesbians|transgenders|africans)\\b","(jew|jewish|mexican|hispanic|black|white|asian|caucasian|oriental|gay|lesbian|transgender|african)\\s(folk|guy|girl|people|person|dude|chic|bitch|ass|man|wom|men|amercian)"]},{"message":"It looks like you might be trying to post a phone number. Please respect people's privacy and don't do that.","allowContinue":false,"expressions":["([0-9]{7,10}|[0-9]{3}[\\.\\-\\s][0-9]{3}[\\.\\-\\s][0-9]{4}|[0-9]{3}[\\.\\-\\s][0-9]{4})"]}],"config":{"APP_HOST":"https://beta.yikyak.com/","sessionExpiration":number}};
+    </script>
+    
+
+    
+      <script src="https://cdn.ravenjs.com/1.1.22/jquery,native/raven.min.js"></script>
+      <script>
+        Raven.config('https://1705242650824a44b74669851ea1eede@app.getsentry.com/55624').install();
+      </script>
+    
+
+    
+      <script async src="/js/app.bundle.min.6c7fc016.js"></script>
+    
+  </body>
+</html>
